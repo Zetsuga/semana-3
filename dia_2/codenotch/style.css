@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+
+/*COMIENZO DEL CSS REFERENTE AL INDEX*/
+.principal{
+    width: 100vw;
+}
+
+.superior{
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 50px;
+    align-items: center;
+    background-color:#0000ff;
+}
+
+.superior__cabecera{
+    width: 200px;
+} 
+
+.superior__cabecera__logo__imagen{
+    width: 200px;
+
+}
+
+.superior__cabecera__logo__imagen{
+    max-width: 200px;
+    height: auto;
+}
+
+.superior__menu__boton{
+    color:white;
+    text-decoration: none;
+    padding-right: 20px;
+    font-family: 'Roboto', sans-serif;;
+    font-size: 1.1em;
+}
+
+.superior__menu__boton:hover{
+    color:black;
+}
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contenido__banner{
+    height: 600px;
+    background-image: url("./img/fondo.png ");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.contenido__banner__texto{
+    margin-top: 50px;
+    font-size: 2em;
+}
+
+.contenido__banner__titulo{
+    margin-top: 30px;
+    font-size: 4em;
+}
+
+.contenido__banner__subtexto{
+    margin-top: 20px;
+    font-size: 1.3em;
+}
+
+
+.contenido__formacion{
+    height: 500px;
+    background-color:#0000ff;
+    display: flex;
+    flex-direction: row;
+    padding: 0 50px;
+}
+
+.contenido__formacion__izquierda{
+    width: 50%;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.contenido__formacion__izquierda__titulo{
+    color:white;
+    font-size: 2.5em;
+}
+
+.contenido__formacion__izquierda__texto{
+    color:white;
+    margin-top: 30px;
+    font-size: 1.2em;
+}
+
+
+.contenido__formacion__derecha{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.contenido__formacion__derecha__imagen{
+    margin: 0 auto;
+}
+
+.contenido__comentario{
+    height: 500px;
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+    /*padding: 0 50px;*/
+}
+
+.contenido__comentario__izquierda{
+    width: 50%;
+    margin-top: 50px;
+}
+
+.contenido__comentario__izquierda__imagen{
+    width: 700px;
+}
+
+.contenido__comentario__izquierda__imagen__img{
+    max-width: 700px;
+    height: auto;
+}
+
+.contenido__comentario__derecha{
+    width: 50%;
+    margin-top: 100px;
+    margin-right: 50px;
+}
+
+.contenido__comentario__derecha__texto{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+    }
+
+.contenido__comentario__derecha__subtexto{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:black;
+    padding-top: 50px;
+    width: 100%;
+    height: 50px;
+    padding: 0 40px;
+}
+
+.footer__copyright{
+    color: white;
+    align-self: center;
+
+}
+
+.footer__redsocial{
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+    color: white;
+}
+
+.footer__redsocial__link{
+    color: white;
+    align-self: center;
+    margin-right: 20px;
+}
+
+.footer__redsocial__link__boton{
+    color:white;
+} 
+
+.footer__redsocial__link__boton:hover{
+    color:blue;
+} 
+
+/*COMIENZO DEL CSS REFERENTE A LOS CURSOS*/
+
+.contenido__cursos{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /*background-color:#0000ff;
+    color:white;*/
+    justify-content: space-around;
+    height: 800px;
+    margin-top: 100px;
+    padding: 0 50px;
+    flex-wrap: wrap;
+}
+
+.contenido__cursos__front{
+    width: 370px;
+    border-radius: 5px 5px 0 0;
+    height: 680px;
+    box-shadow: 6px 3px 10px grey;
+}
+
+.contenido__cursos__front__imagen{
+    width: 370px;
+}
+
+.contenido__cursos__front__imagen__img{
+    max-width: 370px;
+    border-radius: 5px 5px 0 0;
+}
+
+.contenido__cursos__front__descripcion{
+    margin-top: 20px;
+}
+
+.contenido__cursos__front__descripcion__texto{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    text-align: justify;
+    padding: 0 10px;
+}
+
+.contenido__cursos__front__duracion{
+    margin-top: 20px;
+}
+
+.contenido__cursos__front__duracion__texto{
+    text-align: center;
+    color: #0000ff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+}
+
+.contenido__cursos__front__precio{
+    margin-top: 20px;
+    border: 3px solid #0000ff;
+    margin: 20px 20px 0 20px;
+    box-shadow: 3px 3px 6px #0000ff;
+}
+
+.contenido__cursos__front__precio__texto{
+    text-align: center;
+    color: #0000ff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4em;
+}
+
+.contenido__cursos__data{
+    width: 370px;
+    border-radius: 5px 5px 0 0;
+    height: 680px;
+    box-shadow: 6px 3px 10px grey;
+}
+
+.contenido__cursos__data__imagen{
+    width: 370px;
+}
+
+.contenido__cursos__data__imagen__img{
+    max-width: 370px;
+    border-radius: 5px 5px 0 0;
+}
+
+.contenido__cursos__data__descripcion{
+    margin-top: 20px;
+}
+
+.contenido__cursos__data__descripcion__texto{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    text-align: justify;
+    padding: 0 10px;
+}
+
+.contenido__cursos__data__duracion{
+    margin-top: 20px;
+}
+
+.contenido__cursos__data__duracion__texto{
+    text-align: center;
+    color: #0000ff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+}
+
+.contenido__cursos__data__precio{
+    margin-top: 20px;
+    border: 3px solid #0000ff;
+    margin: 20px 20px 0 20px;
+    box-shadow: 3px 3px 6px #0000ff;
+}
+
+.contenido__cursos__data__precio__texto{
+    text-align: center;
+    color: #0000ff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4em;
+}
+
+.contenido__cursos__android{
+    width: 370px;
+    border-radius: 5px 5px 0 0;
+    height: 680px;
+    box-shadow: 6px 3px 10px grey;
+}   
+
+.contenido__cursos__android__imagen{
+    width: 370px;
+}
+
+.contenido__cursos__android__imagen__img{
+    max-width: 370px;
+    border-radius: 5px 5px 0 0;
+}
+
+.contenido__cursos__android__descripcion{
+    margin-top: 20px;
+}
+
+.contenido__cursos__android__descripcion__texto{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    text-align: justify;
+    padding: 0 10px;
+}
+
+.contenido__cursos__android__duracion{
+    margin-top: 20px;
+}
+
+.contenido__cursos__android__duracion__texto{
+    text-align: center;
+    color: #0000ff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+}
+
+.contenido__cursos__android__precio{
+    margin-top: 20px;
+    border: 3px solid #0000ff;
+    margin: 20px 20px 0 20px;
+    box-shadow: 3px 3px 6px #0000ff;
+}
+
+.contenido__cursos__android__precio__texto{
+    text-align: center;
+    color: #0000ff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4em;
+}
+
+/*COMIENZO DEL CSS REFERENTE A LOS CURSOS*/
+
+.contenidoFormulario{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding: 50px 0;
+    background-image: url("./img/fondo2.jpg ");
+    background-size: cover;
+}
+
+.contenidoFormulario__cuerpo__texto{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+}
+
+.contenidoFormulario__formulario{
+    margin-top: 50px;;
+}
+
+.contenidoFormulario__formulario__form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.contenidoFormulario__formulario__form__nombre{
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 12px 20px;
+}
+
+.contenidoFormulario__formulario__form__nombre{
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 12px 20px;
+    box-shadow: 2px 4px 6px grey;
+}
+
+.contenidoFormulario__formulario__form__email{
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 12px 20px;
+    box-shadow: 2px 4px 6px grey;
+}
+
+.contenidoFormulario__formulario__form__phone{
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 12px 20px;
+    box-shadow: 2px 4px 6px grey;
+}
+
+.contenidoFormulario__formulario__form__direccion{
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 12px 20px;
+    box-shadow: 2px 4px 6px grey;
+}
+
+.contenidoFormulario__formulario__form__submit{
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 12px 20px;
+    background-color: #fff;
+    color:#0000ff;
+    font-size: 1.2em;
+    border: 2px solid #0000ff;
+    box-shadow: 2px 4px 6px #0000ff;
+}
+
+.contenidoFormulario__formulario__form__submit:hover{
+    background-color: #fff;
+    color:#10586e;
+    border: 2px solid #10586e;
+    box-shadow: 2px 4px 6px #10586e;
+}
+
+
+::placeholder{
+    color:black;
+    font-size: 1.2em;
+}
