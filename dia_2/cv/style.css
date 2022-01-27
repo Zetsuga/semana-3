@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.principal{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.datos{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(23, 88, 126);
+    color:white;
+    width: 33%;
+}
+
+.datos__foto{
+   padding-top: 30px;
+   margin: 0 auto;
+}
+
+.datos__foto__mia{
+    border-radius: 50%;
+}
+
+.datos__nombre{
+    margin: 10px 20px 0 20px;
+}
+
+.datos__nombre__texto{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 2em;
+}
+
+.datos__titulo{
+    margin: 5px 20px 0 20px;
+}
+
+.datos__titulo__texto{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.datos__contacto{
+    margin: 20px 20px 0 20px;
+}
+
+.datos__contacto__iconos{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+}
+
+.datos__contacto__iconos__texto{
+    font-size: 1.2em;
+}
+
+.datos__sobreMi{
+    margin: 40px 30px 0 30px;
+}
+
+.datos__sobreMi__titulo{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.datos__sobreMi__texto{
+    text-align: justify;
+}
+
+.datos__idiomas{
+    margin: 30px 30px 0 30px;
+    text-align: center;
+}
+
+.datos__idiomas__titulo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.datos__idiomas__texto{
+    font-size: 1.2em;
+    padding-bottom: 3px;
+    font-weight: 200;
+}
+
+.datos__intereses{
+    margin: 50px 30px 0 30px;
+}
+
+.datos__intereses__titulo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.datos__intereses__texto{
+    font-size: 1.2em;
+    padding-bottom: 3px;
+    text-align: justify;
+    margin-bottom: 70px;
+}
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.experiencia{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    width: 100%;
+}
+
+.experiencia__titulo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.experiencia__contenido{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.experiencia__contenido__titulo{
+    width: 45%;
+}
+
+.experiencia__contenido__titulo__texto{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.experiencia__contenido__titulo__fecha{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.experiencia__contenido__titulo__empresa{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.experiencia__contenido__texto{
+    width: 50%;
+    font-weight: 400;
+}
+
+.formacion{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    width: 100%;
+    margin-top: 30px;;
+}
+
+.formacion__titulo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.formacion__contenido{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.formacion__contenido__fecha{
+    width: 10%;
+}
+
+.formacion__contenido__fecha__texto{
+    font-weight: 600;
+}
+
+.formacion__contenido__titulo{
+    width: 70%;
+}
+
+.formacion__contenido__titulo__texto{
+    font-size: 1.1em;
+}
+
+.formacion__contenido__titulo__subtexto{
+    font-weight: 600;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    width: 100%;
+    margin-top: 30px;;
+}
+
+.skills__titulo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.skills__contenido{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    width: 70%;
+}
+
+.skills__contenido__grupo{
+    width: 40%;
+    margin-bottom: 20px;
+}
