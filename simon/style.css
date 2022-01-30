@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.principal{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.botones{
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:100px;
+}
+
+.botones__juego{
+    padding: 5px 12px;
+    background-color:grey;
+    color: white;
+    box-shadow: 3px 5px 10px grey;
+    font-size: 1.5em;
+}
+
+.puesto{
+    margin-bottom: 50px;
+}
+
+.puesto__texto{
+    margin-bottom: 50px;
+    font-weight: 600;
+    font-size: 2em;
+}
+
+.colores{
+    width:30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 100px;
+}
+
+.colores__rojo{
+    background-color: rgb(255, 0, 0);
+    width: 200px;
+    height: 200px;
+}
+
+.colores__rojo--oscuro{
+    background-color: rgb(104, 4, 4);
+    width: 200px;
+    height: 200px;
+}
+
+.colores__amarillo{
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+}
+
+.colores__amarillo--oscuro{
+    background-color: rgb(53, 53, 2);
+    width: 200px;
+    height: 200px;
+}
+
+.colores__azul{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+}
+
+.colores__azul--oscuro{
+    background-color: rgb(1, 1, 78);
+    width: 200px;
+    height: 200px;
+}
+
+.colores__verde{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+}
+
+.colores__verde--oscuro{
+    background-color: rgb(1, 39, 1);
+    width: 200px;
+    height: 200px;
+}
