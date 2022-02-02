@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Sedgwick+Ave+Display&display=swap');
+
+:root{
+    --fuenteTexto: 'Play', sans-serif;
+    --fuenteJuego: 'Sedgwick Ave Display', cursive;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--fuenteTexto);
+}
+
+.principal{
+    display: grid;
+    grid-template-columns: [x0]1fr [x1]1fr [x2]1fr [x3]1fr;
+    grid-template-rows: [y0]1fr [y1]1fr [y2]1fr [y3]1fr;
+}
+
+.botonera{
+    grid-column: x0 / x4;
+    grid-row: y0 / y1;
+
+    display: grid;
+    grid-template-columns: [z0]1fr [z1]1fr;
+    grid-template-rows: [w0]1fr;
+    margin-top: 50px;
+}
+
+ .botonNueva{
+    grid-column: z0 / z1;
+    grid-row: w0 / w1;
+    margin: 0 auto;
+}
+
+.botonReset{
+    grid-column: z1 / z2;
+    grid-row: w0 / w1;
+    margin: 0 auto;
+}
+
+.botonNuevoJuego, .botonResetJuego{
+    font-family: var(--fuenteJuego);
+    font-size: 2em;
+    padding: 8px 12px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    
+}
+
+.botonNuevoJuego:hover, .botonResetJuego:hover{
+    font-family: var(--fuenteJuego);
+    font-size: 2em;
+    padding: 8px 12px;
+    background-color: rgb(15, 132, 199);
+    color: white;
+    border: none;
+}
+
+.contadorPrimer{
+    grid-column: x0 / x1;
+    grid-row: y1 / y2;
+
+    margin-top: 50px;
+    text-align: center;
+}
+
+.contadorPrimer__jugador{
+    font-family: var(--fuenteTexto);
+    
+}
+
+.contadorPartidas{
+    grid-column: x1 / x3;
+    grid-row: y1 / y2;
+
+    margin-top: 50px;
+    text-align: center;
+}
+
+.contadorSegundo{
+    grid-column: x3 / x4;
+    grid-row: y1 / y2;
+
+    margin-top: 50px;
+    text-align: center;
+}
+
+.cuadridula{
+    grid-column: x0 / x4;
+    grid-row: y2 / y3;
+
+    display: grid;
+    grid-template-columns: [m0]1fr [m1]1fr [m2]1fr;
+    grid-template-rows: [n0]1fr;
+    margin: 0 auto;
+}
+
+.zonaA{
+    grid-column: m0 / m1;
+    grid-row: n0 / n1;
+    height: 1px;
+}
+
+.zonaB{
+    grid-column: m2 / m3;
+    grid-row: n0 / n1;
+    height: 1px;
+}
+
+
+.zonaJuego{
+    grid-column: m1 / m2;
+    grid-row: n0 / n1;
+
+    display: grid;
+    grid-template-columns: [a0]70px [a1]70px [a2]70px;
+    grid-template-rows: [b0]70px [b1]70px [b2]70px;
+    text-align: center;
+}
+
+.zona11{
+    grid-column: a0 / a1;
+    grid-row: b0 / b1;
+
+    width: 70px;
+    height: 70px;
+    border-bottom: 3px solid grey;
+    border-right: 3px solid grey;
+}
+
+.zona12{
+    grid-column: a1 / a2;
+    grid-row: b0 / b1;
+
+    width: 70px;
+    height: 70px;
+    border-bottom: 3px solid grey;
+    border-right: 3px solid grey;
+}
+
+.zona13{
+    grid-column: a2 / a3;
+    grid-row: b0 / b1;
+
+    width: 70px;
+    height: 70px;
+    border-bottom: 3px solid grey;
+}
+
+.zona21{
+    grid-column: a0 / a1;
+    grid-row: b1 / b2;
+
+    width: 70px;
+    height: 70px;
+    border-bottom: 3px solid grey;
+    border-right: 3px solid grey;
+}
+
+.zona22{
+    grid-column: a1 / a2;
+    grid-row: b1 / b2;
+
+    width: 70px;
+    height: 70px;
+    border-bottom: 3px solid grey;
+    border-right: 3px solid grey;
+}
+
+.zona23{
+    grid-column: a2 / a3;
+    grid-row: b1 / b2;
+
+    width: 70px;
+    height: 70px;
+    border-bottom: 3px solid grey;
+}
+
+.zona31{
+    grid-row: b2 / b3;
+
+    width: 70px;
+    height: 70px;
+    border-right: 3px solid grey;
+}
+
+.zona32{
+    grid-column: a1 / a2;
+    grid-row: b2 / b3;
+
+    width: 70px;
+    height: 70px;
+    border-right: 3px solid grey;
+}
+
+.zona33{
+    grid-column: a2 / a3;
+    grid-row: b2 / b3;
+
+    width: 70px;
+    height: 70px;
+} 
+
+.jugador1{
+    font-size: 4em;
+    font-family: var(--fuenteJuego);
+    color: red;
+}
+
+.jugador2{
+    font-size: 4em;
+    font-family: var(--fuenteJuego);
+    color: blue;
+}
