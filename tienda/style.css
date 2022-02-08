@@ -171,3 +171,13 @@
 .totalPrecio{
     color: var(--colorSecundario);
 }
+
+@media screen and (max-width:640px){
+    .cabecera__contenido{
+        position: initial;
+    }
+
+    .cabecera{
+        width: 100vw;
+    }
+}
